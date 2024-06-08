@@ -1,0 +1,2 @@
+## Estrutura dos Exemplos e Exercícios
+Os exemplos presentes neste repositório são numerados sequencialmente, enquanto os exercícios são identificados por letras do alfabeto. Esses exercícios foram cuidadosamente elaborados para reforçar os conceitos abordados em cada capítulo, proporcionando uma base sólida que facilita a realização de projetos mais complexos, como os desenvolvidos durante a faculdade.
