@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 8.2</title>
+    <style>
+        h1 {
+            border-bottom-style: inset;
+        }
+        pre {
+            font-size: 1.2em;;
+        }
+        span {
+            margin-left: 70px;
+        }
+        select {
+            width: 150px;
+        }
+        .detalhes {
+            width: 380px;
+        }
+        .oculta {
+            display: none;
+        }
+        .exibe {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Revenda Avenida - Promoção</h1>
+    <form>
+        <p>
+            <label for="inModelo">Modelo do Veículo: <input type="text" id="inModelo" autofocus required></label>
+        </p>
+        <p>
+            <label for="inAno">Ano de Fabricação: <input type="number" id="inAno"></label>
+        </p>
+        <p>
+            <label for="inPreco">Preço R$: <input type="number" step="0.01" id="inPreco"></label>
+        </p>
+        <p>
+            <input type="submit" value="Classificar - Calcular Entrada e Parcelas">
+        </p>
+    </form> 
+
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+
+    <script src="ex8_2.js"></script>
+
+</body>
+</html>

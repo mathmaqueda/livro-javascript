@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        h1 {
+            border-bottom-style: inset;
+        }
+        .tarefa-selecionada {
+            color: red;
+            font-style: italic;
+        }
+        .tarefa-normal {
+            color: black;
+        }
+        img.moeda1-00 {
+            height: 84px;
+            width: 84px;
+            margin-bottom: 5px;
+        }
+        img.moeda0-50 {
+            height: 66px;
+            width: 66px;
+            margin-bottom: 5px;
+        }
+        img.moeda0-25 {
+            height: 76px;
+            width: 76px;
+            margin-bottom: 5px;
+        }
+        img.moeda0-10 {
+            height: 60px;
+            width: 60px;
+            margin-bottom: 5px;
+        }
+        .alinha-direita {
+            text-align: right;
+        }
+    </style>
+    <title>Exemplo 10.2</title>
+</head>
+<body>
+    <div class="container-fluid">´
+        <div id="divMoedas">
+            <form>
+                <h1>Vamos Brincar de Dinheiro?</h1>
+                <p>
+                    <label for="inSoma">A soma das moedas exibidas abaixo é:</label>
+                    <input type="number" min="0" step="0.05" class="form-control" id="inSoma" required autofocus>
+                </p>
+                <p>
+                    <input type="submit" class="btn btn-primary" value="Conferir Resposta">
+                    <input type="reset" class="btn btn-danger" value="Exibir Novas Moedas">
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="ex10_2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 7.1</title>
+    <style>
+        h1 {
+            border-bottom-style: inset;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        const anuncio = prompt("Anúncio: ")
+        let numPalavras = 0
+        // const tam = anuncio.length
+        // for(let i=0; i<tam; i++){
+        //     if(anuncio.charAt(i) == " ") {
+        //         numPalavras++  // O NÚMERO DE PALAVRAS É O NÚMERO DE ESPAÇOS + 1!!!!!!!!!!!!
+        //    }
+        // }
+        for(const letra of anuncio){
+            if(letra == " "){
+                numPalavras++
+            }
+        }
+        alert(`Anúncio: ${anuncio}\nN° Palavras: ${numPalavras+1}`)
+    </script>
+
+</body>
+</html>
